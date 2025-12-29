@@ -7,47 +7,47 @@
 
         combo_z {
             bindings = <&kp Z>;
-            key-positions = <0 35>;
+            key-positions = <0 1>;
         };
 
         combo_q {
             bindings = <&kp Q>;
-            key-positions = <1 35>;
+            key-positions = <1 2>;
         };
 
         combo_exclamation {
             bindings = <&kp EXCL>;
-            key-positions = <35 4>;
+            key-positions = <4 3>;
         };
 
         combo_asterisk {
             bindings = <&kp STAR>;
-            key-positions = <35 25>;
+            key-positions = <25 24>;
         };
 
         combo_plus {
             bindings = <&kp PLUS>;
-            key-positions = <34 26>;
+            key-positions = <26 27>;
         };
 
         combo_semicolon {
             bindings = <&kp SEMI>;
-            key-positions = <34 15>;
+            key-positions = <15 16>;
         };
 
         combo_at {
             bindings = <&kp AT>;
-            key-positions = <5 34>;
+            key-positions = <5 6>;
         };
 
         combo_colon {
             bindings = <&kp COLON>;
-            key-positions = <6 34>;
+            key-positions = <6 7>;
         };
 
         combo_question {
             bindings = <&kp QMARK>;
-            key-positions = <7 34>;
+            key-positions = <7 35>;
         };
     };
 
