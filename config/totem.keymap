@@ -15,51 +15,62 @@
             key-positions = <1 2>;
         };
 
-        combo_exclamation {
-            bindings = <&kp EXCL>;
-            key-positions = <4 3>;
+        combo_lp {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <8 7>;
         };
 
-        combo_asterisk {
-            bindings = <&kp STAR>;
-            key-positions = <25 24>;
-        };
-
-        combo_plus {
-            bindings = <&kp PLUS>;
-            key-positions = <26 27>;
-        };
-
-        combo_semicolon {
-            bindings = <&kp SEMI>;
-            key-positions = <15 16>;
-        };
-
-        combo_at {
-            bindings = <&kp AT>;
-            key-positions = <5 6>;
-        };
-
-        combo_colon {
-            bindings = <&kp COLON>;
-            key-positions = <6 7>;
-        };
-
-        combo_question {
-            bindings = <&kp QMARK>;
-            key-positions = <7 35>;
+        combo_rp {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <8 9>;
         };
     };
 
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        letters {
             bindings = <
-             &kp X  &kp W  &kp M      &kp G          &kp DQT      &kp HASH   &kp DOT    &kp SQT   &kp J  &kp B
-             &kp S  &kp C  &kp N      &kp T          &kp K        &kp COMMA  &kp A      &kp E     &kp I  &kp H
-&mt ESC TAB  &kp V  &kp P  &kp L      &kp D          &kp SLASH    &kp MINUS  &kp U      &kp O     &kp Y  &kp F  &mt DEL RET
-                           &kp LCTRL  &kp BACKSPACE  &kp R        &kp SPACE  &kp RSHFT  &kp RALT
+        &kp X  &kp W  &kp M   &kp G           &kp BACKSLASH    &kp SLASH    &kp DOT                      &kp APOSTROPHE  &kp J  &kp B
+        &kp S  &kp C  &kp N   &kp T           &kp K            &kp COMMA    &kp A                        &kp E           &kp I  &kp H
+&trans  &kp V  &kp P  &kp L   &kp D           &kp EQUAL        &kp MINUS    &kp U                        &kp O           &kp Y  &kp F  &trans
+                      &trans  &sk LEFT_SHIFT  &lt 1 R          &lt 2 SPACE  &mt RIGHT_CONTROL BACKSPACE  &trans
+            >;
+        };
+
+        symbols {
+            bindings = <
+        &kp F1     &kp F2            &kp F3        &kp F4        &kp F5          &trans       &kp N7  &kp N8  &kp N9  &kp N0
+        &kp LSHFT  &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &kp F11         &kp LBKT     &kp N1  &kp N2  &kp N3  &kp RBKT
+&trans  &trans     &trans            &trans        &trans        &kp CAPSLOCK    &trans       &kp N4  &kp N5  &kp N6  &kp GRAVE  &trans
+                                     &trans        &trans        &trans          &lt 3 SPACE  &trans  &trans
+            >;
+        };
+
+        navigation {
+            bindings = <
+        &kp ESCAPE  &kp PG_UP       &kp UP_ARROW    &kp PAGE_DOWN    &trans        &kp F6           &kp F7         &kp F8         &kp F9             &kp F10
+        &kp TAB     &kp LEFT_ARROW  &kp ENTER       &kp RIGHT_ARROW  &kp DELETE    &kp F12          &kp RIGHT_ALT  &kp RIGHT_WIN  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT
+&trans  &kp INSERT  &kp HOME        &kp DOWN_ARROW  &kp END          &trans        &kp PRINTSCREEN  &trans         &trans         &trans             &trans           &trans
+                                    &trans          &trans           &lt 4 R       &trans           &trans         &trans
+            >;
+        };
+
+        letters_right {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &kp SLASH  &kp DOT  &kp APOSTROPHE  &kp J  &kp B
+        &trans  &trans  &trans  &trans  &trans    &kp COMMA  &kp A    &kp E           &kp I  &kp H
+&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp U    &kp O           &kp Y  &kp F  &trans
+                        &trans  &trans  &trans    &trans     &trans   &trans
+            >;
+        };
+
+        letters_left {
+            bindings = <
+        &kp X  &kp W  &kp M   &kp G   &kp BACKSLASH    &trans  &trans  &trans  &trans  &trans
+        &kp S  &kp C  &kp N   &kp T   &kp K            &trans  &trans  &trans  &trans  &trans
+&trans  &kp V  &kp P  &kp L   &kp D   &kp EQUAL        &trans  &trans  &trans  &trans  &trans  &trans
+                      &trans  &trans  &trans           &trans  &trans  &trans
             >;
         };
     };
