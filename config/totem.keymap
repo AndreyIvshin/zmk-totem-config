@@ -9,10 +9,10 @@
 
         letters {
             bindings = <
-        &kp X  &kp W  &kp M   &kp G           &kp Z      &kp SLASH      &kp DOT          &kp APOSTROPHE  &kp J  &kp B
-        &kp S  &kp C  &kp N   &kp T           &kp K      &kp COMMA      &kp A            &kp E           &kp I  &kp H
-&trans  &kp V  &kp P  &kp L   &kp D           &kp Q      &kp SEMICOLON  &kp U            &kp O           &kp Y  &kp F  &trans
-                      &trans  &kp LEFT_SHIFT  &lt 1 R    &lt 2 SPACE    &kp RIGHT_SHIFT  &trans
+        &kp X  &kp W  &kp M   &kp G                     &kp Z      &kp SLASH      &kp DOT                &kp APOSTROPHE  &kp J  &kp B
+        &kp S  &kp C  &kp N   &kp T                     &kp K      &kp COMMA      &kp A                  &kp E           &kp I  &kp H
+&trans  &kp V  &kp P  &kp L   &kp D                     &kp Q      &kp SEMICOLON  &kp U                  &kp O           &kp Y  &kp F  &trans
+                      &trans  &mt LEFT_SHIFT BACKSPACE  &lt 1 R    &lt 2 SPACE    &mt RIGHT_SHIFT ENTER  &trans
             >;
         };
 
