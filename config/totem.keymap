@@ -2,29 +2,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        combo_z {
-            bindings = <&kp Z>;
-            key-positions = <0 1>;
-        };
-
-        combo_q {
-            bindings = <&kp Q>;
-            key-positions = <1 2>;
-        };
-
-        combo_lp {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <8 7>;
-        };
-
-        combo_rp {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <8 9>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
