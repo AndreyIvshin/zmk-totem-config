@@ -9,19 +9,19 @@
 
         letters {
             bindings = <
-        &kp X  &kp W  &kp M   &kp G                     &kp Z      &kp SLASH      &kp DOT                &kp APOSTROPHE  &kp J  &kp B
-        &kp S  &kp C  &kp N   &kp T                     &kp K      &kp COMMA      &kp A                  &kp E           &kp I  &kp H
-&trans  &kp V  &kp P  &kp L   &kp D                     &kp Q      &kp SEMICOLON  &kp U                  &kp O           &kp Y  &kp F  &trans
-                      &trans  &mt LEFT_SHIFT BACKSPACE  &lt 1 R    &lt 2 SPACE    &mt RIGHT_SHIFT ENTER  &trans
+        &kp X  &kp W  &kp M   &kp G        &kp Z               &kp SLASH              &kp DOT          &kp APOSTROPHE  &kp J  &kp B
+        &kp S  &kp C  &kp N   &kp T        &kp K               &kp COMMA              &kp A            &kp E           &kp I  &kp H
+&trans  &kp V  &kp P  &kp L   &kp D        &kp Q               &kp SEMICOLON          &kp U            &kp O           &kp Y  &kp F  &trans
+                      &trans  &lt 1 ENTER  &mt LEFT_SHIFT R    &mt RIGHT_SHIFT SPACE  &lt 2 BACKSPACE  &trans
             >;
         };
 
         symbols {
             bindings = <
-        &kp F1     &kp F2            &kp F3        &kp F4        &kp F5          &kp BACKSLASH  &kp N7     &kp N8  &kp N9  &kp N0
-        &kp LSHFT  &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &kp F11         &kp LBKT       &kp N1     &kp N2  &kp N3  &kp RBKT
-&trans  &trans     &trans            &trans        &trans        &kp CAPSLOCK    &kp MINUS      &kp N4     &kp N5  &kp N6  &kp EQUAL  &trans
-                                     &trans        &trans        &trans          &lt 3 SPACE    &kp GRAVE  &trans
+        &kp F1     &kp F2            &kp F3        &kp F4        &kp F5          &kp BACKSLASH  &kp N7       &kp N8  &kp N9  &kp N0
+        &kp LSHFT  &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &kp F11         &kp LBKT       &kp N1       &kp N2  &kp N3  &kp RBKT
+&trans  &trans     &trans            &trans        &trans        &kp CAPSLOCK    &kp MINUS      &kp N4       &kp N5  &kp N6  &kp EQUAL  &trans
+                                     &trans        &trans        &trans          &trans         &lt 3 GRAVE  &trans
             >;
         };
 
@@ -30,7 +30,7 @@
         &kp ESCAPE  &kp BACKSPACE   &kp ENTER       &kp DELETE       &kp TAB    &kp F6           &kp F7         &kp F8         &kp F9             &kp F10
         &kp HOME    &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp END    &kp F12          &kp RIGHT_ALT  &kp RIGHT_WIN  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT
 &trans  &trans      &kp PG_UP       &kp DOWN_ARROW  &kp PAGE_DOWN    &trans     &kp PRINTSCREEN  &trans         &trans         &trans             &trans           &trans
-                                    &trans          &kp INSERT       &lt 4 R    &trans           &trans         &trans
+                                    &trans          &lt 4 INSERT     &trans     &trans           &trans         &trans
             >;
         };
 
