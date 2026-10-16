@@ -6,3 +6,4 @@ This ZMK keymap for the 34-key [TOTEM](https://github.com/GEIGEIGEIST/TOTEM) aim
 <img width="1920" height="1080" alt="image" src="docs/images/1.png" />
 <img width="1920" height="1080" alt="image" src="docs/images/2.png" />
 <img width="1920" height="1080" alt="image" src="docs/images/3.png" />
+
